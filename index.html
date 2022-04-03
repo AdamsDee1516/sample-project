@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Fast Curbside Pickup</title>
+
+    <link rel="shortcut icon" href="/assets/img/logo1.png" type="image/x-icon">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/assets/img/logo1.png" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Content</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img class="cart" src="/assets/img/cart.png" alt="">
+                <img class="cart" src="/assets/img/menu.png" aria-colspan="menu-icon" alt="" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>SHOP WITH US <br> FOR NEW STYLE</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis <br> deserunt ullam aut, laborum iure blanditiis numquam.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="/assets/img/banner.png" alt="Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/assets/img/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/assets/img/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="/assets/img/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- featured products -->
+    <div class="small-container">
+        <h2 class="featured">Exclusive Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/assets/img/product-1.jpg" alt="">
+                <h4>Men Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;6000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-2.jpg" alt="">
+                <h4>Lacoste Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;9500</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-3.jpg" alt="">
+                <h4>Casual Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>&#8358;8000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-4.jpg" alt="">
+                <h4>Chanel Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;6500</p>
+            </div>
+        </div>
+
+        <h2 class="featured">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="/assets/img/product-5.jpg" alt="">
+                <h4>Nike High Top</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;12000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-6.jpg" alt="">
+                <h4>Female Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>&#8358;6000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-7.jpg" alt="">
+                <h4>3 in 1 socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>&#8358;3500</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-8.jpg" alt="">
+                <h4>Wear Gear Smart</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>&#8358;18000</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/assets/img/product-9.jpg" alt="">
+                <h4>Omega wrist watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;17000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-10.jpg" alt="">
+                <h4>Nike culture</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;9500</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-11.jpg" alt="">
+                <h4>Sneakers Fashion 2</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8358;8000</p>
+            </div>
+            <div class="col-4">
+                <img src="/assets/img/product-12.jpg" alt="">
+                <h4>Nike Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    
+                </div>
+                <p>&#8358;10000</p>
+            </div>
+        </div>
+    </div>
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/assets/img/exclusive.png" alt="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Latest offer 50% off.</p>
+                    <h1>WEAR GEAR 2 SMART</h1>
+                    <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, eos fugit corporis minus optio pariatur sit, exercitationem ratione ex itaque natus, aspernatur sequi maxime cum.</small><br>
+                    <a href="" class="btn">Buy Now &#8594; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste, mollitia vel obcaecati dolorem perspiciatis error laboriosam neque, blanditiis voluptatem maxime aspernatur.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        
+                    </div>
+                    <img src="/assets/img/user-1.png" alt="">
+                    <h3>Davis Harrison</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste, mollitia vel obcaecati dolorem perspiciatis error laboriosam neque, blanditiis voluptatem maxime aspernatur.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        
+                    </div>
+                    <img src="/assets/img/user-2.png" alt="">
+                    <h3>Mike Arnold</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iste, mollitia vel obcaecati dolorem perspiciatis error laboriosam neque, blanditiis voluptatem maxime aspernatur.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        
+                    </div>
+                    <img src="/assets/img/user-3.png" alt="">
+                    <h3>Clara Smith</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/assets/img/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/assets/img/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/assets/img/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/assets/img/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/assets/img/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="/assets/img/play-store.png" alt="">
+                        <img src="/assets/img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/assets/img/logo-white.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora doloremque voluptatibus aliquid aspernatur deserunt omnis.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupon</li>
+                        <li>Blog</li>
+                        <li>Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Super Fast Curbside Pickup</p>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
